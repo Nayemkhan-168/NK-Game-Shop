@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NK Game Shop</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f0f18;
+color:#fff;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 20px;
+background:#171727;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:25px;
+font-weight:bold;
+color:#9d4dff;
+}
+
+.menu{
+display:flex;
+gap:15px;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+font-size:15px;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:linear-gradient(135deg,#6a00ff,#25004d);
+}
+
+.hero h1{
+font-size:35px;
+margin-bottom:10px;
+}
+
+.hero p{
+color:#ddd;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+background:#ffb400;
+color:#000;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.search{
+padding:20px;
+}
+
+.search input{
+width:100%;
+padding:15px;
+border:none;
+border-radius:10px;
+font-size:16px;
+}
+
+.section-title{
+padding:20px;
+font-size:22px;
+font-weight:bold;
+}
+
+.games{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+padding:20px;
+}
+
+.card{
+background:#1d1d2d;
+border-radius:15px;
+overflow:hidden;
+text-align:center;
+}
+
+.card img{
+width:100%;
+display:block;
+}
+
+.card h3{
+padding:15px;
+}
+
+footer{
+margin-top:30px;
+padding:20px;
+text-align:center;
+background:#171727;
+color:#aaa;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<div class="logo">NK Game Shop</div>
+
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">Games</a>
+<a href="#">Login</a>
+</div>
+</header>
+
+<section class="hero">
+<h1>Instant Game Top-Up</h1>
+<p>Fast • Secure • Trusted</p>
+
+<a class="btn" href="#">
+Shop Now
+</a>
+
+</section>
+
+<div class="search">
+<input type="text" placeholder="Search Games...">
+</div>
+
+<h2 class="section-title">
+Popular Games
+</h2>
+
+<div class="games">
+
+<div class="card">
+<img src="https://placehold.co/600x350/png?text=Free+Fire">
+<h3>Free Fire</h3>
+</div>
+
+<div class="card">
+<img src="https://placehold.co/600x350/png?text=PUBG+Mobile">
+<h3>PUBG Mobile</h3>
+</div>
+
+<div class="card">
+<img src="https://placehold.co/600x350/png?text=Mobile+Legends">
+<h3>Mobile Legends</h3>
+</div>
+
+<div class="card">
+<img src="https://placehold.co/600x350/png?text=COD+Mobile">
+<h3>COD Mobile</h3>
+</div>
+
+</div>
+
+<footer>
+
+© 2026 NK Game Shop
+
+</footer>
+<section style="padding:20px;">
+<h2 style="margin-bottom:15px;">🔥 Best Selling</h2>
+
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:15px;">
+
+<div style="background:#1d1d2d;border-radius:15px;padding:15px;text-align:center;">
+<h3>💎 100 Diamonds</h3>
+<p style="color:#ffb400;font-size:20px;">৳85</p>
+<button style="background:#8a2be2;color:white;border:none;padding:10px 20px;border-radius:8px;">Buy Now</button>
+</div>
+
+<div style="background:#1d1d2d;border-radius:15px;padding:15px;text-align:center;">
+<h3>💎 310 Diamonds</h3>
+<p style="color:#ffb400;font-size:20px;">৳250</p>
+<button style="background:#8a2be2;color:white;border:none;padding:10px 20px;border-radius:8px;">Buy Now</button>
+</div>
+
+<div style="background:#1d1d2d;border-radius:15px;padding:15px;text-align:center;">
+<h3>📅 Weekly Membership</h3>
+<p style="color:#ffb400;font-size:20px;">৳170</p>
+<button style="background:#8a2be2;color:white;border:none;padding:10px 20px;border-radius:8px;">Buy Now</button>
+</div>
+
+<div style="background:#1d1d2d;border-radius:15px;padding:15px;text-align:center;">
+<h3>📆 Monthly Membership</h3>
+<p style="color:#ffb400;font-size:20px;">৳780</p>
+<button style="background:#8a2be2;color:white;border:none;padding:10px 20px;border-radius:8px;">Buy Now</button>
+</div>
+
+</div>
+</section>
+
+<section style="padding:20px;">
+<h2 style="margin-bottom:15px;">📢 Why Choose NK Game Shop?</h2>
+
+<div style="background:#1d1d2d;padding:20px;border-radius:15px;line-height:30px;">
+✅ Instant Delivery<br>
+✅ 24/7 Support<br>
+✅ Secure Payment<br>
+✅ Trusted Service<br>
+✅ Cheapest Price
+</div>
+
+</section>
+<!-- Featured Products -->
+<section style="padding:20px;">
+<h2 style="margin-bottom:15px;">⭐ Featured Products</h2>
+
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:15px;">
+
+<div style="background:#1d1d2d;border-radius:15px;padding:15px;text-align:center;">
+<h3>🔥 Level Up Pass</h3>
+<p style="color:#ffb400;font-size:20px;">৳190</p>
+<button style="background:#ff9800;color:#fff;border:none;padding:10px 20px;border-radius:8px;">Order</button>
+</div>
+
+<div style="background:#1d1d2d;border-radius:15px;padding:15px;text-align:center;">
+<h3>👑 Evo Access</h3>
+<p style="color:#ffb400;font-size:20px;">৳399</p>
+<button style="background:#ff9800;color:#fff;border:none;padding:10px 20px;border-radius:8px;">Order</button>
+</div>
+
+</div>
+</section>
+
+<!-- Customer Reviews -->
+<section style="padding:20px;">
+<h2 style="margin-bottom:15px;">💬 Customer Reviews</h2>
+
+<div style="background:#1d1d2d;padding:15px;border-radius:15px;margin-bottom:15px;">
+⭐⭐⭐⭐⭐<br>
+"Very Fast Delivery. Trusted Shop."
+<br><br>
+— Rahim
+</div>
+
+<div style="background:#1d1d2d;padding:15px;border-radius:15px;">
+⭐⭐⭐⭐⭐<br>
+"Best Price & Instant Top Up."
+<br><br>
+— Karim
+</div>
+
+</section>
+
+<!-- Contact -->
+<section style="padding:20px;">
+
+<h2 style="margin-bottom:15px;">📞 Contact Us</h2>
+
+<div style="background:#1d1d2d;padding:20px;border-radius:15px;line-height:35px;">
+
+📱 WhatsApp: +8801XXXXXXXXX
+
+<br>
+
+✉ Email: support@nkgameshop.com
+
+<br>
+
+🕒 Support: 24 Hours
+
+</div>
+
+</section>
+
+<!-- Help Button -->
+<a href="#"
+style="
+position:fixed;
+bottom:20px;
+right:20px;
+background:#8a2be2;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+">
+Need Help?
+</a>
+<!-- Offer Banner -->
+<section style="padding:20px;">
+<div style="background:linear-gradient(135deg,#7b2cff,#ff9800);padding:25px;border-radius:20px;text-align:center;">
+<h2>🎉 Special Offer</h2>
+<p>Buy Diamonds & Get Instant Delivery</p>
+<button style="padding:12px 25px;border:none;border-radius:30px;background:white;color:#7b2cff;font-weight:bold;cursor:pointer;">
+Order Now
+</button>
+</div>
+</section>
+
+<!-- Statistics -->
+<section style="padding:20px;">
+<h2 style="margin-bottom:15px;">📊 Our Statistics</h2>
+
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:15px;">
+
+<div style="background:#1d1d2d;padding:20px;border-radius:15px;text-align:center;">
+<h1 style="color:#ff9800;">50K+</h1>
+<p>Orders Completed</p>
+</div>
+
+<div style="background:#1d1d2d;padding:20px;border-radius:15px;text-align:center;">
+<h1 style="color:#ff9800;">
+</body>
+</html>
